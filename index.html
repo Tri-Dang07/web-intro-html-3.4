@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cấu Trúc Định Danh Rõ Nghĩa</title>
+  <style>
+    /* Gọi thiết kế thông qua tên class của header */
+    .dau-trang {
+      background-color: #1abc9c;
+      color: white;
+      padding: 30px 10px;
+      text-align: center;
+    }
+
+    /* Gọi thiết kế đặc biệt thông qua id duy nhất của tiêu đề chính */
+    #tieu-de-chinh {
+      margin: 0;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* Gọi thiết kế thông qua tên class của nav */
+    .menu-chinh {
+      background-color: #34495e;
+      padding: 12px 0;
+      text-align: center;
+    }
+
+    .menu-chinh a {
+      color: #ecf0f1;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    .menu-chinh a:hover {
+      color: #1abc9c;
+    }
+
+    /* Thân trang cơ bản */
+    .noi-dung-mau {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      font-family: Arial, sans-serif;
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <header class="dau-trang">
+    <h1 id="tieu-de-chinh">Học Viện Lập Trình Web</h1>
+  </header>
+
+  <nav class="menu-chinh">
+    <a href="#">Khóa Học</a>
+    <a href="#">Lộ Trình</a>
+    <a href="#">Blog Kỹ Thuật</a>
+    <a href="#">Liên Hệ</a>
+  </nav>
+
+  <main class="noi-dung-mau">
+    <section>
+      <h2>Tầm quan trọng của việc đặt tên rõ nghĩa (Naming Convention)</h2>
+      <p>
+        Cách chúng ta đặt tên cho <code>class</code> và <code>id</code> như <code>dau-trang</code>, <code>tieu-de-chinh</code> hay <code>menu-chinh</code> được gọi là cách đặt tên theo vai trò nội dung. Điều này giúp loại bỏ hoàn toàn những cái tên vô nghĩa như <i>box1, aaa, abc</i>.
+      </p>
+      <p>
+        Khi dự án lớn lên, việc tuân thủ quy tắc viết chữ thường, ngăn cách bằng dấu gạch nối giúp mã nguồn CSS và JavaScript dễ đọc, dễ bảo trì, và giúp đồng đội trong nhóm hiểu ngay đoạn code đó đang điều khiển khu vực nào của trang web.
+      </p>
+    </section>
+  </main>
+
+  </body>
+</html>
